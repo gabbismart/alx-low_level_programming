@@ -1,9 +1,9 @@
 #include <stdio.h>
-/**
+
  * main - size print the size of the various types
  * Return: 0 if exited properly, non-zero otherwise
  */
-int main (void)
+int main(void)
 {
 	printf("Size of a char: %d byte(s)\n", sizeof(char));
 	printf("Size of an int: %d byte(s)\n", sizeof(int));
