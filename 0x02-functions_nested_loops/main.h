@@ -1,4 +1,4 @@
-nclude "holberton.h"
+nclude "main.h""
 
 /**
  * main -  prints Holberton, followed by a new line
@@ -20,5 +20,4 @@ int main(void)
 	_putchar('\n');
 
 	return (0);
-
 }
