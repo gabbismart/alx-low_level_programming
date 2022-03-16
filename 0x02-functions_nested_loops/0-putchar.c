@@ -1,4 +1,4 @@
-#include "Gabriel.h"
+#include "main.h"
 
 /**
  * main - prints Gabriel, followed by a new line
@@ -6,14 +6,11 @@
  */
 int main(void)
 {
-	-putchar('G');
+	-putchar('M');
 	-putchar('a');
-	-putchar('b');
-	-putchar('r');
 	-putchar('i');
-	-putchar('e');
-	-putchar('l');
-	-putchare('\n');
+	-putchar('n');
+	putchare('\n');
 
 	return (0);
 }
