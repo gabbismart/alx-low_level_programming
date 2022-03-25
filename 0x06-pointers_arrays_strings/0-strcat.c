@@ -1,4 +1,6 @@
-#include"main.h"
+#include "main.h"
+#include <stdio.h>
+
 /**
  *char *_strcat - concatenates two strings
  *@dest: Destination of the new string
@@ -15,9 +17,7 @@ char *_strcat(char *dest, char *src)
 	i++;
 
 	for (j = 0; src[j] != '\0'; j++)
-
 	dest[i + j] = src[j];
 
 	return (dest);
-
 }
