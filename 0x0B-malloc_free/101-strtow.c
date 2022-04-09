@@ -9,7 +9,7 @@
 int count_word(char *s)
 {
 	int flag, c, w;
-
+	
 	flag = 0;
 	w = 0;
 
@@ -34,7 +34,6 @@ int count_word(char *s)
  * or NULL (Error)
  */
 char **strtow(char *str)
-
 {
 	char **matrix, *tmp;
 	int i, k = 0, len = 0, words, c = 0, start, end;
@@ -54,7 +53,7 @@ char **strtow(char *str)
 		if (str[i] == ' ' || str[i] == '\0')
 		{
 			if (c)
-			{
+			{	
 				end = i;
 				tmp = (char *) malloc(sizeof(char) * (c + 1));
 				if (tmp == NULL)
